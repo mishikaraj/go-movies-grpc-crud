@@ -9,4 +9,4 @@ $protoc --go_out=. --go_opt=paths=source_relative \
     protos/moviesapp.proto
 $go mod tidy
 $go run server/main.go
-#go run client/main.go
+# go run client/main.go
