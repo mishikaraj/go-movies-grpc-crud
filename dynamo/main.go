@@ -12,7 +12,7 @@ import (
 func main() {
 
 	sess := session.Must(session.NewSessionWithOptions(session.Options{
-		SharedConfigState: session.SharedConfigEnable,
+		SharedConfigState: session.SharedConfigEnable, Profile: "stage1",
 	}))
 
 	// Create DynamoDB client
